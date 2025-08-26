@@ -36,17 +36,17 @@ Recently, large foundation models trained on vast datasets have demonstrated exc
 
 <div align="center">
   <img src="figures/mergesam_results.png" alt="Experimental Results – MergeSAM" width="720"/><br/>
-  <em>Fig. 2. Qualitative/quantitative results on high-resolution change detection benchmarks.</em>
+  <em>Fig. 2. Qualitative results on high-resolution change detection benchmarks.</em>
 </div>
 
 ---
 
 ## 3) How to Start
 
-> 以下以 `maincode.py` 为例（具体行号以你的本地文件为准）。
+> 以下以 `maincode.py` 为例。
 
 ### 3.1 安装并引入 SAM 项目
-- 官方仓库：https://github.com/facebookresearch/segment-anything  
+- SAM官方仓库：https://github.com/facebookresearch/segment-anything  
 - 在 `maincode.py` **第 7 行**修改为你的本地路径（示例）：
 ```python
 # line 7
@@ -88,7 +88,7 @@ img_root = "/absolute/path/to/GZ_CD_data"
 python maincode.py
 ```
 
-> 小贴士：若行号不一致，请根据注释语义定位变量（`SAM_PROJECT_PATH`、`sam_checkpoint`、`img_root`）。如需切换 SAM 变体（H/L/B），请确保权重文件与模型配置匹配。
+> 注意：若行号不一致，请根据注释语义定位变量（`SAM_PROJECT_PATH`、`sam_checkpoint`、`img_root`）。如需切换 SAM 变体（H/L/B），请确保权重文件与模型配置匹配。
 
 ---
 
