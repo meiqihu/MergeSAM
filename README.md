@@ -27,7 +27,6 @@ Recently, large foundation models trained on vast datasets have demonstrated exc
 
 ## 2) 论文流程与结果（Figures from the Paper）
 
-> 请将论文中的“算法流程图”和“实验结果图”加入仓库，并替换下方占位路径。
 
 <div align="center">
   <img src="figures/mergesam_pipeline.png" alt="Algorithm Pipeline – MergeSAM" width="720"/><br/>
@@ -90,7 +89,11 @@ python maincode.py
 
 > 注意：若行号不一致，请根据注释语义定位变量（`SAM_PROJECT_PATH`、`sam_checkpoint`、`img_root`）。如需切换 SAM 变体（H/L/B），请确保权重文件与模型配置匹配。
 
----
+## Acknowledgement
+Thanks to the following repository:
+[AnyChanger](https://github.com/Z-Zheng/pytorch-change-models/blob/main/torchange/models/segment_any_change/README.md);
+
+
 
 ```
 ```
