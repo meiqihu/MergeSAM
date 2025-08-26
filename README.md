@@ -91,9 +91,6 @@ python maincode.py
 
 ## Acknowledgement
 Thanks to the following repository:
-[AnyChanger](https://github.com/Z-Zheng/pytorch-change-models/blob/main/torchange/models/segment_any_change/README.md);
+[AnyChanger](https://github.com/Z-Zheng/pytorch-change-models/blob/main/torchange/models/segment_any_change/README.md).
 
 
-
-```
-```
