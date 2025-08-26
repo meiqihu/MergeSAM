@@ -80,7 +80,8 @@ img_root = "/absolute/path/to/GZ_CD_data"
 
 ### 3.4 环境与运行（示例）
 
-* 推荐环境：Python ≥ 3.8、PyTorch ≥ 1.11、CUDA（可选）、opencv-python、numpy、tqdm 等。
+* 推荐环境：Python ≥ 3.10
+* GPU: ≥ RTX2080
 * 运行：
 
 ```bash
