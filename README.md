@@ -45,7 +45,8 @@ Recently, large foundation models trained on vast datasets have demonstrated exc
 > 以下以 `maincode.py` 为例。
 
 ### 3.1 安装并引入 SAM 项目
-- SAM官方仓库：https://github.com/facebookresearch/segment-anything  
+- ！无需从SAM官方仓库下载segment anything项目，**请使用我们上传的segment-anything项目**，我们在automatic_mask_generator.py种进行了修改，增加了SamAutomaticMaskGenerator.generate_onlyMask_Embed函数。
+- 
 - 在 `maincode.py` **第 7 行**修改为你的本地路径（示例）：
 ```python
 # line 7
